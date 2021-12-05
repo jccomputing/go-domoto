@@ -3,7 +3,7 @@ package domoto
 import (
 	"fmt"
 
-	resty "gopkg.in/resty.v0"
+	resty "gopkg.in/resty.v1"
 )
 
 // Call Domoticz API
