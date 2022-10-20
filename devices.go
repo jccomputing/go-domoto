@@ -47,7 +47,7 @@ type Device struct {
 	PlanIDs           []int   `json:"PlanIDs,omitempty"`
 	Protected         bool    `json:"Protected"`
 	ShowNotifications bool    `json:"ShowNotifications,omitempty"`
-	SignalLevel       string  `json:"SignalLevel,omitempty"`
+	SignalLevel       string  `json:"-"`
 	Status            string  `json:"Status,omitempty"`
 	StrParam1         string  `json:"StrParam1,omitempty"`
 	StrParam2         string  `json:"StrParam2,omitempty"`
